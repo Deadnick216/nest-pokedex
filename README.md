@@ -14,7 +14,11 @@ npm i -g @nestjs/cli
 
 4. levantar la base de datos
 
-dcoker-compose up -d
+docker-compose up -d
+
+5. clonar el archivo __.env.template__
+
+6.reconstruir la base de datos con la semilla
 
 # Stack Usado
 * Mongo
